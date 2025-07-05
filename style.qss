@@ -1,0 +1,50 @@
+QMainWindow {
+    background: #f0f0f0;
+}
+
+QMenuBar {
+    background: #005bb5;
+    color: white;
+}
+
+QMenuBar::item:selected {
+    background: #004a99;
+}
+
+QPushButton {
+    background: #0066cc;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 6px;
+    font-size: 14px;
+    margin-right: 8px;  /* отступ справа */
+}
+
+QPushButton:last-child {
+    margin-right: 0;  /* убираем отступ у последней кнопки */
+}
+
+QTableWidget {
+    background: white;
+    border: 1px solid #ccc;
+    gridline-color: #ddd;
+    font-size: 13px;
+}
+
+QHeaderView::section {
+    background: #e0e0e0;
+    border: 1px solid #ccc;
+}
+
+QLineEdit {
+    background: white;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    padding: 4px;
+    font-size: 13px;
+}
+
+
+
+
